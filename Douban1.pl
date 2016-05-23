@@ -14,11 +14,11 @@ our $type='T';      #搜索类型        type=T 综合排序   R 出版日期排
 our $flag=1;		   #标记是否应该继续爬虫
 our $total=0;       #总页数
 our $rest_page;     #剩余页面;
-our $thread=5;      #进程数
+our $thread=20;      #进程数
 
 my %tags=(         #定义所有标签        科技和流行特例
 #	"经管" =>"douban_book_jg",
-#	"文学" =>"douban_book_wx",
+	"文学" =>"douban_book_wx",
 #	"流行" =>"douban_book_lx",
 #	"文化" =>"douban_book_wh",
 	"生活" =>"douban_book_sh",
